@@ -1,0 +1,38 @@
+{
+  "name": "redditclone",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview",
+    "prepare": "svelte-kit sync",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+    "lint": "prettier --check --plugin-search-dir=. .",
+    "format": "prettier --write --plugin-search-dir=. ."
+  },
+  "devDependencies": {
+    "@iconify/icons-bx": "^1.2.3",
+    "@iconify/json": "^2.1.64",
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "@types/bcrypt": "^5.0.0",
+    "@types/better-sqlite3": "^7.5.0",
+    "@unocss/core": "^0.39.3",
+    "@unocss/preset-icons": "^0.39.3",
+    "@unocss/preset-uno": "^0.39.3",
+    "bcrypt": "^5.0.1",
+    "better-sqlite3": "^7.5.3",
+    "joi": "^17.6.0",
+    "joi-password-complexity": "^5.1.0",
+    "nanoid": "^4.0.0",
+    "svelte": "^3.44.0",
+    "svelte-check": "^2.7.1",
+    "svelte-preprocess": "^4.10.6",
+    "tslib": "^2.3.1",
+    "typescript": "^4.7.2",
+    "unocss": "^0.39.3"
+  },
+  "type": "module"
+}
